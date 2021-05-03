@@ -1,0 +1,44 @@
+Apr 30, 2021 9:28:25 PM application.Main initiateRetrieval
+INFORMATION: cv_parsed20210430_212823.json
+[(cv10,0.3), (cv5,0.29), (cv7,0.28), (cv3,0.26), (cv0,0.26), (cv1,0.26), (cv8,0.2), (cv2,0.19), (cv9,0.18), (cv6,0.17), (cv4,0.13), (cv11,0.07)]
+Apr 30, 2021 9:32:26 PM application.Main initiateRetrieval
+INFORMATION: cv_parsed20210430_213225.json
+[(cv5,0.37), (cv0,0.35), (cv7,0.34), (cv1,0.3), (cv3,0.3), (cv10,0.3), (cv9,0.24), (cv2,0.24), (cv8,0.18), (cv4,0.17), (cv6,0.17), (cv11,0.1)]
+Mai 03, 2021 12:09:35 AM application.Main initiateRetrieval
+INFORMATION: cv_parsed20210503_000933.json
+[(cv3,0.19), (cv5,0.19), (cv7,0.19), (cv0,0.19), (cv10,0.19), (cv1,0.19), (cv9,0.13), (cv2,0.13), (cv4,0.06), (cv6,0.06), (cv8,0.06), (cv11,0.0)]
+Mai 03, 2021 12:16:43 AM application.Main initiateRetrieval
+INFORMATION: cv_parsed20210503_001642.json
+[(cv1,0.31), (cv5,0.29), (cv3,0.28), (cv0,0.27), (cv10,0.27), (cv7,0.26), (cv2,0.23), (cv9,0.19), (cv4,0.17), (cv8,0.17), (cv6,0.15), (cv11,0.05)]
+Mai 03, 2021 2:04:53 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 2:06:45 AM application.Main displayCoverletter
+INFORMATION: Diversified by:  544
+coverletter20210503_020645.txt
+
+Mai 03, 2021 3:53:05 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:14:12 AM application.Main displayCoverletter
+INFORMATION: Diversified by:  463
+coverletter20210503_041412.txt
+
+Mai 03, 2021 4:16:31 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:19:27 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:19:47 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:19:55 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:20:22 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.89), (cv7,0.44), (cv0,0.41), (cv3,0.37), (cv1,0.35), (cv5,0.35), (cv10,0.33), (cv9,0.29), (cv2,0.27), (cv6,0.23), (cv4,0.23), (cv8,0.21), (cv11,0.14)]
+Mai 03, 2021 4:21:57 AM application.Main initiateRetrieval
+INFORMATION: null
+[(cv12,0.96), (cv7,0.5), (cv0,0.43), (cv10,0.39), (cv3,0.38), (cv1,0.37), (cv5,0.36), (cv9,0.35), (cv2,0.29), (cv8,0.28), (cv6,0.25), (cv4,0.25), (cv11,0.2)]

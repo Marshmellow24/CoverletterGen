@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.19.112+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-03-13T23:44:42.574122",
+    "startedAt": "2021-03-13T23:44:40.232773",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 2,
+    "cuda": "11.0.228",
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-df66df89-163f-4a87-9117-9224567fda03.json"
+    ],
+    "state": "running",
+    "program": "Paraphrasing with simpletransformers.ipynb",
+    "root": "/content",
+    "host": "212c305fe275",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

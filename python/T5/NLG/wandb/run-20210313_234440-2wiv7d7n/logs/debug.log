@@ -1,0 +1,30 @@
+2021-03-13 23:44:40,234 INFO    MainThread:296 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-13 23:44:40,234 INFO    MainThread:296 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-13 23:44:40,234 INFO    MainThread:296 [wandb_setup.py:_flush():69] setting login settings: {'api_key': '8c5a11604a690d0900ce098dd4bc3819e173bda0'}
+2021-03-13 23:44:40,234 INFO    MainThread:296 [wandb_init.py:_log_setup():334] Logging user logs to /content/wandb/run-20210313_234440-2wiv7d7n/logs/debug.log
+2021-03-13 23:44:40,234 INFO    MainThread:296 [wandb_init.py:_log_setup():335] Logging internal logs to /content/wandb/run-20210313_234440-2wiv7d7n/logs/debug-internal.log
+2021-03-13 23:44:40,235 INFO    MainThread:296 [wandb_init.py:_jupyter_setup():285] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fab0a175bd0>
+2021-03-13 23:44:40,235 INFO    MainThread:296 [wandb_init.py:init():367] calling init triggers
+2021-03-13 23:44:40,235 INFO    MainThread:296 [wandb_init.py:init():374] wandb.init called with sweep_config: {}
+config: {'adam_epsilon': 1e-08, 'best_model_dir': 'outputs/best_model', 'cache_dir': 'cache_dir/', 'config': {}, 'cosine_schedule_num_cycles': 0.5, 'custom_layer_parameters': [], 'custom_parameter_groups': [], 'dataloader_num_workers': 0, 'do_lower_case': False, 'dynamic_quantize': False, 'early_stopping_consider_epochs': False, 'early_stopping_delta': 0, 'early_stopping_metric': 'eval_loss', 'early_stopping_metric_minimize': True, 'early_stopping_patience': 3, 'encoding': None, 'adafactor_eps': (1e-30, 0.001), 'adafactor_clip_threshold': 1.0, 'adafactor_decay_rate': -0.8, 'adafactor_beta1': None, 'adafactor_scale_parameter': False, 'adafactor_relative_step': False, 'adafactor_warmup_init': False, 'eval_batch_size': 4, 'evaluate_during_training': True, 'evaluate_during_training_silent': True, 'evaluate_during_training_steps': 2500, 'evaluate_during_training_verbose': True, 'evaluate_each_epoch': True, 'fp16': False, 'gradient_accumulation_steps': 1, 'learning_rate': 5e-05, 'local_rank': -1, 'logging_steps': 50, 'manual_seed': None, 'max_grad_norm': 1.0, 'max_seq_length': 128, 'model_name': 't5-base', 'model_type': 't5', 'multiprocessing_chunksize': -1, 'n_gpu': 1, 'no_cache': False, 'no_save': False, 'not_saved_args': [], 'num_train_epochs': 2, 'optimizer': 'Adafactor', 'output_dir': 'outputs/', 'overwrite_output_dir': True, 'process_count': 1, 'polynomial_decay_schedule_lr_end': 1e-07, 'polynomial_decay_schedule_power': 1.0, 'quantized_model': False, 'reprocess_input_data': True, 'save_best_model': True, 'save_eval_checkpoints': False, 'save_model_every_epoch': True, 'save_optimizer_and_scheduler': True, 'save_steps': -1, 'scheduler': 'constant_schedule_with_warmup', 'silent': False, 'skip_special_tokens': True, 'tensorboard_dir': None, 'thread_count': None, 'tokenizer_type': None, 'tokenizer_name': None, 'train_batch_size': 16, 'train_custom_parameters_only': False, 'use_cached_eval_features': False, 'use_early_stopping': False, 'use_multiprocessing': False, 'use_multiprocessing_for_evaluation': False, 'wandb_kwargs': {}, 'wandb_project': 'Paraphrasing with Bart', 'warmup_ratio': 0.06, 'warmup_steps': 164, 'weight_decay': 0.0, 'model_class': 'T5Model', 'dataset_class': None, 'do_sample': True, 'early_stopping': True, 'evaluate_generated_text': False, 'length_penalty': 2.0, 'max_length': 128, 'max_steps': -1, 'num_beams': None, 'num_return_sequences': 3, 'preprocess_inputs': True, 'repetition_penalty': 1.0, 'special_tokens_list': [], 'top_k': 50, 'top_p': 0.95, 'use_multiprocessed_decoding': True}
+2021-03-13 23:44:40,235 INFO    MainThread:296 [wandb_init.py:init():416] starting backend
+2021-03-13 23:44:40,235 INFO    MainThread:296 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-03-13 23:44:40,284 INFO    MainThread:296 [backend.py:ensure_launched():123] starting backend process...
+2021-03-13 23:44:40,334 INFO    MainThread:296 [backend.py:ensure_launched():128] started backend process with pid: 376
+2021-03-13 23:44:40,341 INFO    MainThread:296 [wandb_init.py:init():421] backend started and connected
+2021-03-13 23:44:40,428 INFO    MainThread:296 [wandb_init.py:init():461] updated telemetry
+2021-03-13 23:44:40,429 INFO    MainThread:296 [wandb_init.py:init():480] communicating current version
+2021-03-13 23:44:41,092 INFO    MainThread:296 [wandb_init.py:init():485] got version response 
+2021-03-13 23:44:41,092 INFO    MainThread:296 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-13 23:44:41,206 INFO    MainThread:296 [wandb_init.py:init():518] starting run threads in backend
+2021-03-13 23:44:42,591 INFO    MainThread:296 [wandb_run.py:_console_start():1480] atexit reg
+2021-03-13 23:44:42,592 INFO    MainThread:296 [wandb_run.py:_redirect():1343] redirect: SettingsConsole.WRAP
+2021-03-13 23:44:42,592 INFO    MainThread:296 [wandb_run.py:_redirect():1378] Wrapping output streams.
+2021-03-13 23:44:42,592 INFO    MainThread:296 [wandb_run.py:_redirect():1394] Redirects installed.
+2021-03-13 23:44:42,592 INFO    MainThread:296 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-13 23:44:42,593 INFO    MainThread:296 [wandb_watch.py:watch():39] Watching
+2021-03-14 00:33:02,842 INFO    MainThread:296 [wandb_init.py:_pause_backend():247] pausing backend
+2021-03-14 00:33:02,843 INFO    MainThread:296 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-03-14 00:33:02,848 INFO    MainThread:296 [wandb_init.py:_resume_backend():256] resuming backend
+2021-03-14 00:35:58,565 INFO    MainThread:296 [wandb_init.py:_pause_backend():247] pausing backend
+2021-03-14 00:35:58,565 INFO    MainThread:296 [jupyter.py:save_ipynb():265] not saving jupyter notebook

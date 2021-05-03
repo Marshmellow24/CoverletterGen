@@ -1,0 +1,542 @@
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py:795: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+/usr/local/lib/python3.7/dist-packages/torch/nn/modules/module.py:760: UserWarning: Using non-full backward hooks on a Module that does not return a single Tensor or a tuple of Tensors is deprecated and will be removed in future versions. This hook will be missing some of the grad_output. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using non-full backward hooks on a Module that does not return a "
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:557: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at  /pytorch/torch/csrc/utils/python_arg_parser.cpp:1005.)
+  exp_avg_sq_row.mul_(beta2t).add_(1.0 - beta2t, update.mean(dim=-1))
+INFO:simpletransformers.t5.t5_utils: Creating features from dataset file at cache_dir/
+INFO:simpletransformers.t5.t5_utils: Saving features into cached file cache_dir/t5-base_cached_128895
+INFO:simpletransformers.t5.t5_model:{'eval_loss': 0.8688403287503336}
+INFO:simpletransformers.t5.t5_utils: Creating features from dataset file at cache_dir/
+INFO:simpletransformers.t5.t5_utils: Saving features into cached file cache_dir/t5-base_cached_128895
+INFO:simpletransformers.t5.t5_model:{'eval_loss': 0.8567826583582375}
+INFO:simpletransformers.t5.t5_utils: Creating features from dataset file at cache_dir/
+INFO:simpletransformers.t5.t5_utils: Saving features into cached file cache_dir/t5-base_cached_128895
+INFO:simpletransformers.t5.t5_model:{'eval_loss': 0.8581027057953179}
+INFO:simpletransformers.t5.t5_model: Training of t5-base model complete. Saved to outputs/.
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab016a93b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab016a3560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677e9290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677e9200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677eec20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677eea70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677eeb00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677ee950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa677ee7a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe63b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe68c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6c20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe6f80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe94d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe99e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9b90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9d40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe9ef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec0e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec5f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec7a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fec950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fecb00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67feccb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fece60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed3b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fed8c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67feda70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fedc20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67feddd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fedf80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf5f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf9e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcfd40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcfef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcf7a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcfa70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce0e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce5f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce7a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fce950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fceb00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcecb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcee60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff83b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff88c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8c20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff8f80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe74d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe79e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7b90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7d40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fe7ef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0e60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff03b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff08c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0b90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff0d40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff53b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff58c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5c20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff5f80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc4d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcc9e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fccb90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fccd40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fccef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6e60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff60e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff67a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff68c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff6320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb3b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdb8c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdba70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdbc20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdbdd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdbf80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde4d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fde9e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdeb90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fded40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fdeef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca0e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca5f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca7a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fca950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcab00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcacb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fcae60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd53b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd58c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5c20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd5f80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa4d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffa9e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffab90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffad40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ffaef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd10e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd15f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd17a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1b00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1cb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67fd1e60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff13b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff18c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1a70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1c20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7faa67ff1f80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d14d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d19e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1b90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1d40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d1ef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d60e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d65f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d67a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6b00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6cb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d6e60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb3b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cb8c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cba70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cbc20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cbdd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cbf80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c9200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c90e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c9680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c93b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c99e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c9cb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c9710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c98c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7c9dd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d90e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d95f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d97a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9950> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9b00> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9cb0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7d9e60> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf050> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf200> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf3b0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf560> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf710> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cf8c0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cfa70> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cfc20> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cfdd0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7cff80> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc170> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc320> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc4d0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc680> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc830> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dc9e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dcb90> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dcd40> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7dcef0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7e00e0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7e0290> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7e0440> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7e05f0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+/usr/local/lib/python3.7/dist-packages/torch/utils/hooks.py:63: UserWarning: backward hook <function TorchHistory._hook_variable_gradient_stats.<locals>.<lambda> at 0x7fab0a7e07a0> on tensor will not be serialized.  If this is expected, you can decorate the function with @torch.utils.hooks.unserializable_hook to suppress this warning
+  "to suppress this warning".format(repr(hook)))
+---------------------------------------------------------
+Mit meiner langjährigen Erfahrung in Sachen Machine Learning konnte ich tiefe Einblicke in die statistischen Methoden und innovativen Entwicklungen der Branche gewinnen.
+
+Predictions >>>
+Mit meiner langjährigen Erfahrung im Bereich Machine Learning konnte ich tiefe Einblicke in die statistischen Methoden und die innovativen Entwicklungen der Branche erlangen.
+Mit meiner langjährigen Erfahrung in Sachen Machine Learning konnte ich tiefe Einblicke in die statistischen Methoden und innovativen Entwicklungen der Branche gewinnen.
+Mit meiner langjährigen Erfahrung in Sachen Machine Learning konnte ich tiefe Einblicke in die statistischen Methoden und die innovativen Entwicklungen der Branche gewinnen.
+---------------------------------------------------------
+

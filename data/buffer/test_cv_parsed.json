@@ -1,0 +1,55 @@
+{
+    "content": {
+        "Current Job": [
+			"Werkstudent Requirements Management"
+		],
+        "Experience": [
+			"Assistenz Requirements Management", 
+			"Auswertungen Metriken",
+			"Software Planung",
+			"Koordination Projekt-Teams", 
+			"Visualisierung Planungsdaten", 
+			"Datawarehouse", 
+			"Agile Arbeitsmethoden", 
+			"Scrum Master",
+			"Verwaltung Reports",
+			"Prozessbeschreibungen"
+        ],
+        "Branch": [
+			"Car Multimedia",
+		],
+        "Skills": [
+			"SAFe",
+			"ASPICE",
+			"C++",
+			"Java",
+			"SQL",
+			"VBA",
+			"DXL (DOORS)",
+			"LATEX",
+			"Visual Studio",
+			"Eclipse",
+			"IBM RTC",
+			"IBM DOORS",
+			"Ms Office",
+			"M Visio",
+			"MS Power Point",
+			"MS Project Server",
+			"JIRA"
+			],
+        "Languages": [
+            "Deutsch",
+			"Französisch",
+			"Englisch",
+            "Französisch",
+            "Spanisch"
+        ],
+        "Titles": ["Dr"],
+        "Degrees": [
+			"Höchster Bildungsabschiuss Bachelor of Science",
+            "Informationsmanagement/Informationstechnologie"
+		],
+        "Charity": "false",
+        "Drivers License": "false"
+    }
+}

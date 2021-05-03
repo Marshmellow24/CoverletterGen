@@ -1,0 +1,6 @@
+spacy==3.0.3
+tika==1.24
+fitz==1.18.8
+torch>=1.8.0
+simpletransformers>=0.61.4
+strsimpy==0.2.0
